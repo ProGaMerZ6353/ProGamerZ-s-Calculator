@@ -1,0 +1,7 @@
+A = "Calculator developed by ProGamerZ  v0.1"
+B = "Enter your digits here:"
+C = "Enter your arithmetic operator (+, -, *, /):"
+D = "Enter your second digits here:"
+E = "The result is:"
+Z = A + "\n" + B + "\n" + C + "\n" + D + "\n" + E
+print(Z)
