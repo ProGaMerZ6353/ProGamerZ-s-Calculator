@@ -1,0 +1,29 @@
+A = input("Calculator developed by ProGamerZ  v0.1")
+B = (input("Enter your digits here:"))
+C = input("Enter your arithmetic operator (+, -, *, /):")
+D = (input("Enter your second digits here:"))
+E = input("The result is:")
+Z = (A) + "\n" + (B) + "\n" + C + "\n" + (D) + "\n" + E
+
+print(Z)
+
+if C == "+":
+    result = float(B) + float(D)
+
+elif C == "-":
+    result = float(B) - float(D)
+
+elif C == "*":
+    result = float(B) * float(D)
+
+elif C == "/":
+    if float(D) == 0:
+        result = "Error: Division by zero"
+    else:
+        result = float(B) / float(D)
+
+else:
+    result = "Error: Invalid operator"
+
+print("The result is:", result)
+
